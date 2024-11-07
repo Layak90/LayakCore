@@ -56,4 +56,4 @@ mkdir static templates
 **Contribution**
 Contributions are welcome! If you would like to improve LayakCore, feel free to open issues or pull requests.
 
-*Layak**
+*Layak*
