@@ -50,21 +50,8 @@ clang++ -std=c++11 src/*.cpp -o LayakCore -lboost_system
 mkdir static templates
 
 **Creating a Route**
-To create a new route, use the addRoute method:
-
-layak.addRoute("/about", []() {
-    return "<h1>About</h1><p>This is an about page for our site.</p>";
-});
 
 **Using a Template Engine**
-To use a template engine, create an HTML file in the templates directory and use it as follows:
-
-#include "TemplateEngine.h"
-
-// Example of rendering a template
-TemplateEngine engine;
-std::map<std::string, std::string> variables = {{"title", "Welcome"}, {"content", "This is dynamic content"}};
-std::string rendered = engine.render("base.html", variables);
 
 **Contribution**
 Contributions are welcome! If you would like to improve LayakCore, feel free to open issues or pull requests.
