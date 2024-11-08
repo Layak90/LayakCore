@@ -22,7 +22,7 @@ LayakCore is a lightweight and powerful web framework written in C++. It allows 
    Open your terminal and run the following command to clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/LayakCore.git
+   git clone https://github.com/layak90/LayakCore.git
    cd LayakCore
 
 
